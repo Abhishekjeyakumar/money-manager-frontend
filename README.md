@@ -1,16 +1,33 @@
-# React + Vite
+💰 Money Manager – Web Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Money Manager is a responsive web application designed to help users efficiently track and manage their income and expenses. The application provides clear financial insights through dashboards, filters, and transaction history, making personal and office expense tracking simple and organized.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Add Income & Expense transactions
 
-## React Compiler
+Categorize transactions (Food, Fuel, Medical, Loan, etc.)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Division-based tracking (Personal / Office)
 
-## Expanding the ESLint configuration
+Dashboard analytics (Weekly / Monthly / Yearly income & expense)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Advanced filters (Category, Division, Date range)
+
+Edit restriction: Transactions can be edited only within 12 hours
+
+Transaction history with real-time updates
+
+Responsive UI built with Tailwind CSS
+
+🛠️ Tech Stack
+
+Frontend: React.js, Tailwind CSS
+
+State Management: React Hooks
+
+Deployment: Vercel
+
+🌐 Live Demo
+
+🔗 https://money-manager-frontend-kappa.vercel.app/
