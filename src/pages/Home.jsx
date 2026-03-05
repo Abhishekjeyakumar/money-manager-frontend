@@ -5,7 +5,7 @@ import AddTransactionModal from "../components/AddTransactionModal";
 import { useState, useEffect } from "react";
 
 // ✅ backend API base (only change for deployment later)
-const API_URL = "http://localhost:5001/api/transactions";
+const API_URL = "https://money-manager-backend-kpv1.onrender.com/";
 
 
 
