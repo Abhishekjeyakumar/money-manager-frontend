@@ -8,9 +8,10 @@ import { useState, useEffect } from "react";
 const API_URL = "http://localhost:5001/api/transactions";
 
 
+
 const Home = () => {
   const [open, setOpen] = useState(false);
-  const [transactions, setTransactions] = useState(DEFAULT_TRANSACTIONS);
+  const [transactions, setTransactions] = useState([]);
   const [editingTx, setEditingTx] = useState(null);
 
   // FILTER STATES
